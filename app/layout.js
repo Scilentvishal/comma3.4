@@ -30,30 +30,10 @@ import { Metadata } from 'next';
 
 const inter = Inter({ subsets: ['latin'] })
 
-// export const metadata = [{
-//   openGraph: {
-//     title: 'Comma Tech | Best web development services | In Wardha',
-//     description: 'Looking for the best SEO friendly web development services? We are located in maharashtra and are the leading provider of these services.',
-//     url: 'https://commatech.in',
-//     siteName: 'commatech.in',
-//     images: [
-//       {
-//         url: 'https://nextjs.org/og.png',
-//         width: 800,
-//         height: 600,
-//       },
-//     ],
-//     locale: 'en-US',
-//     type: 'website',
-//   },
-//   title: 'Comma Tech | Best web development services | In Wardha',
-//   description: 'Looking for the best SEO friendly web development services? We are located in maharashtra and are the leading provider of these services.',
-// }];
-
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className='overflow-x-hidden'>
+      <body className={`${inter.className} overflow-x-hidden`}>
         <Navbar />
         <NextNProgress
           height={6}

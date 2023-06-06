@@ -17,12 +17,12 @@ const Portfolio = () => {
               key={pro.id}
               className="md:w-1/3 w-full px-3 text-black rounded-lg"
             >
-              <div className="card_main transition-all duration-500 ease-in-out hover:shadow-[0px_20px_20px_10px_#00000024]">
+              <div className="card_main transition-all duration-500 ease-in-out hover:shadow-[0px_0px_10px_1px_#00000024]">
                 <div className="image relative h-60 md:w-full overflow-hidden w-[90%] mx-auto">
                   <Link href={`/portfolio/${pro.name}`}>
                     <Image
                       fill
-                      className="mb-5 transition-all duration-500 ease-in-out hover:scale-125 hover:shadow-[0px_20px_20px_10px_#00000024]  object-cover mx-auto object-center"
+                      className="mb-5 transition-all duration-500 ease-in-out hover:scale-125 hover:shadow-[0px_0px_10px_1px_#00000024]  object-cover mx-auto object-center"
                       src={`/projects/${pro.img}`}
                       alt="blog"
                     />

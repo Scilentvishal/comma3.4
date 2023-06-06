@@ -28,7 +28,7 @@ const Industries = () => {
             className="py-3 md:px-3 md:w-1/4 sm:w-1/3 w-full h-full items-center justify-center transition-colors duration-500
                 border-solid align-middle text-white"
           >
-            <div className="flex flex-col w-full justify-center border-[1px] sm:p-0 py-4 sm:aspect-square border-white items-center my-auto align-middle">
+            <div className="flex flex-col w-full justify-center border-[1px] sm:p-0 py-4 sm:aspect-square border-white items-center my-auto align-middle rounded-tr-2xl rounded-bl-2xl">
               <FaIndustry className="text-[#FE5B7C] text-5xl mx-auto transition-all ease-in-outs hover:rotate-[360deg] cursor-pointer duration-500" />
               <div className="px-8">
                 <h3 className="title-font text-lg text-center font-medium my-3">
@@ -41,7 +41,7 @@ const Industries = () => {
             className="py-3 md:px-3 md:w-1/4 sm:w-1/3 w-full h-full items-center justify-center transition-colors duration-500
                 border-solid align-middle text-white"
           >
-            <div className="flex flex-col w-full justify-center border-[1px] sm:p-0 py-4 sm:aspect-square border-white items-center my-auto align-middle">
+            <div className="flex flex-col w-full justify-center border-[1px] sm:p-0 py-4 sm:aspect-square border-white items-center my-auto align-middle rounded-tr-2xl rounded-bl-2xl">
               <MdHealthAndSafety className="text-[#FE5B7C] text-5xl mx-auto transition-all ease-in-outs hover:rotate-[360deg] cursor-pointer duration-500" />
               <div className="px-8">
                 <h3 className="title-font text-lg text-center font-medium my-3">
@@ -54,7 +54,7 @@ const Industries = () => {
             className="py-3 md:px-3 md:w-1/4 sm:w-1/3 w-full h-full items-center justify-center transition-colors duration-500
                 border-solid align-middle text-white"
           >
-            <div className="flex flex-col w-full justify-center border-[1px] sm:p-0 py-4 sm:aspect-square border-white items-center my-auto align-middle">
+            <div className="flex flex-col w-full justify-center border-[1px] sm:p-0 py-4 sm:aspect-square border-white items-center my-auto align-middle rounded-tr-2xl rounded-bl-2xl">
               <MdCameraAlt className="text-[#FE5B7C] text-5xl mx-auto transition-all ease-in-outs hover:rotate-[360deg] cursor-pointer duration-500" />
               <div className="px-8">
                 <h3 className="title-font text-lg text-center font-medium my-3">
@@ -67,7 +67,7 @@ const Industries = () => {
             className="py-3 md:px-3 md:w-1/4 sm:w-1/3 w-full h-full items-center justify-center transition-colors duration-500
                 border-solid align-middle text-white"
           >
-            <div className="flex flex-col w-full justify-center border-[1px] sm:p-0 py-4 sm:aspect-square border-white items-center my-auto align-middle">
+            <div className="flex flex-col w-full justify-center border-[1px] sm:p-0 py-4 sm:aspect-square border-white items-center my-auto align-middle rounded-tr-2xl rounded-bl-2xl">
               <MdRealEstateAgent className="text-[#FE5B7C] text-5xl mx-auto transition-all ease-in-outs hover:rotate-[360deg] cursor-pointer duration-500" />
               <div className="px-8">
                 <h3 className="title-font text-lg text-center font-medium my-3">
