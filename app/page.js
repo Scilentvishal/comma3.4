@@ -1,9 +1,8 @@
 import Main from './components/home/Main'
-
-export const metadata = [{
+export const metadata = {
+  title: 'Comma Tech | Best web development services | In Wardha',
+  description: 'About Commatechnologies',
   openGraph: {
-    title: 'Comma Tech | Best web development services | In Wardha',
-    description: 'Looking for the best SEO friendly web development services? We are located in maharashtra and are the leading provider of these services.',
     url: 'https://commatech.in',
     siteName: 'commatech.in',
     images: [
@@ -16,29 +15,12 @@ export const metadata = [{
     locale: 'en-US',
     type: 'website',
   },
-  title: 'Comma Tech | Best web development services | In Wardha',
-  description: 'Looking for the best SEO friendly web development services? We are located in maharashtra and are the leading provider of these services.',
-}];
-
+}
 
 export default function Home() {
   return (
     <>
       <div>
-        {/* <Head>
-          <title>Comma Tech | Best web development services | In Wardha</title>
-          <meta name="description" content="Looking for the best SEO friendly web development services? We are located in maharashtra and are the leading provider of these services." />
-          <meta name="keywords" content="HTML, CSS, JavaScript, webdevelopment, digital marketing, maharashtra, wardha, nagpur, grow business online" />
-          <meta name='robots' content='index, follow' />
-          <meta property="og:type" content="website" />
-          <meta property="og:title" content="Comma Tech | Best web development services | In Wardha | Maharashtra | India" />
-          <meta property="og:description" content="Looking for the best SEO friendly web development services? Look no further than comma technologies! We are located in maharashtra and are the leading provider of these services." />
-          <meta property="og:image" content="/Comma-tech-logop.png" />
-          <meta property="og:url" content="https://https://commatech.in//" />
-
-          <meta property="og:site_name" content="Comma Technologies" />
-        </Head> */}
-
         <Main />
 
       </div>
