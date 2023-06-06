@@ -1,5 +1,5 @@
 import Box from './Box';
-import { AiFillEye, AiFillFlag } from 'react-icons/Ai';
+import { AiFillEye, AiFillFlag } from 'react-icons/ai';
 
 const Goal = (props) => {
   return (
