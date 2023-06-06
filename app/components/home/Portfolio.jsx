@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { projects } from '../../data';
+import { projects } from '../../../data';
 
 const Portfolio = () => {
   return (

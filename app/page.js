@@ -1,4 +1,4 @@
-import Main from '../components/home/Main'
+import Main from './components/home/Main'
 
 export const metadata = {
   title: 'home || Comma Technologies',

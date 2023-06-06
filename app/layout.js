@@ -1,9 +1,9 @@
 
 'use client'
-import Footer from '@/components/Footer'
+import Footer from '@/app/components/Footer'
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Navbar from '@/components/Navbar'
+import Navbar from '@/app/components/Navbar'
 import NextNProgress from 'nextjs-progressbar';
 
 import { Metadata } from 'next';

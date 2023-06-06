@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Serv } from '../../data';
+import { Serv } from '../../../data';
 const Services = () => {
   return (
     <section className="services_main bg-white">
