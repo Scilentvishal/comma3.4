@@ -2,7 +2,7 @@ import Head from './Head';
 import Industries from './Industries';
 import Portfolio from './Portfolio';
 import Services from './Services';
-import Team from '../team';
+import Team from '../Team';
 import Prising from './Prising';
 import Process from './Process';
 
